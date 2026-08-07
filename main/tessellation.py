@@ -11,7 +11,6 @@ yplotlimp = int(input("positive y-axis limit: "))
 circrad = size
 inrad = (math.sqrt(3)/2)*(circrad)
 
-#starting with corner most possible point of x-y axis as centre of first hexagon
 x,y=xplotlimn+inrad,yplotlimp-circrad
 xtemp = xplotlimn + inrad
 parity=1
